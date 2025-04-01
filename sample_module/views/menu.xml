@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+<<<<<<< HEAD
 
 	<!-- Main Menu-->
 	<menuitem id="menu_for_sampleeee_module"
@@ -14,3 +15,12 @@
 		sequence="1" />
 		
 </odoo>
+=======
+	<!-- Main Menu-->
+	<menuitem id="menu_for_sample_module"
+		name="Sample Menu"
+		sequence="2"
+		action="action_for_model_one" />
+</odoo>
+
+>>>>>>> origin/main

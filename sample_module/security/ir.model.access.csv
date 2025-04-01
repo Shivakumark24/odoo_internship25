@@ -1,3 +1,7 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+<<<<<<< HEAD
 access_model_one,access.model.one,model_model_one,base.group_user,1,1,1,1
 access_model_one_user,access.model.one.user,model_model_one,base.group_portal,1,1,0,0
+=======
+access_model_one,access.model.one,model_model_one,,1,1,1,1
+>>>>>>> origin/main

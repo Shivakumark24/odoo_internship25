@@ -3,6 +3,7 @@ from odoo import models, fields
 class ModelOne(models.Model):
 	
 	_name = "model.one"
+<<<<<<< HEAD
 	_description = "Model One"
 	
 	name = fields.Char(string="Name", help='You can add your name here', copy=False)
@@ -11,3 +12,6 @@ class ModelOne(models.Model):
 	active = fields.Boolean('Active')
 	description = fields.Text("Description", default="Test Description")
 	date = fields.Date("Date")
+=======
+	_description = "Model One"
+>>>>>>> origin/main
