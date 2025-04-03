@@ -1,26 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
-<<<<<<< HEAD
+    <!-- Parent Menu -->
+    <menuitem id="menu_demo_sample"
+              name="Sample Menu"
+              sequence="2" />
 
-	<!-- Main Menu-->
-	<menuitem id="menu_for_sampleeee_module"
-		name="Sample Menu"
-		sequence="2"/>
-		
-	<!--Sub Menu-->
-	<menuitem id="menu_for_model_one"
-		name="Models"
-		action="action_for_model_one"
-		parent='menu_for_sampleeee_module'
-		sequence="1" />
-		
+    <!-- Child menu linked to action -->
+    <menuitem id="menu_for_model_one"
+              name="Model One Records"
+              action="action_for_model_one"
+              parent="menu_demo_sample"
+              sequence="1" />
 </odoo>
-=======
-	<!-- Main Menu-->
-	<menuitem id="menu_for_sample_module"
-		name="Sample Menu"
-		sequence="2"
-		action="action_for_model_one" />
-</odoo>
-
->>>>>>> origin/main
