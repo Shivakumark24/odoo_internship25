@@ -1,6 +1,7 @@
 from odoo import models, fields
 
 class CarRental(models.Model):
+    
     _name = "car.rental"
     _description = "Car Rental"
 
