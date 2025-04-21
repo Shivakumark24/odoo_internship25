@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- Parent Menu -->
+    <menuitem id="menu_milk_root" name="Milk Delivery" sequence="50"/>
+
+    <!-- Child menu linked to action -->
+    <menuitem
+        id="menu_milk_deliveries"
+        name="Deliveries"
+        action="action_milk_delivery"
+        parent="menu_milk_root"
+        sequence="10"/>
+</odoo>

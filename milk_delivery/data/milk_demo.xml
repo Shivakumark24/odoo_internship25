@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_partner_milk_customer1" model="res.partner">
+        <field name="name">John's Farm</field>
+        <field name="customer_rank">1</field>
+    </record>
+
+    <record id="milk_delivery_demo1" model="milk.delivery">
+        <field name="customer_id" ref="res_partner_milk_customer1"/>
+        <field name="quantity_liters">10.5</field>
+        <field name="delivery_date">2025-04-20</field>
+        <field name="is_paid">True</field>
+        <field name="unit_price">1.5</field>
+    </record>
+</odoo>
